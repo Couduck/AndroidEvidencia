@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/vender">
+
+    <fragment
+        android:id="@+id/productosFragment"
+        android:name="com.example.puntodeventa_11.ProductosFragment"
+        android:label="fragment_productos"
+        tools:layout="@layout/fragment_productos" />
+    <fragment
+        android:id="@+id/vender"
+        android:name="com.example.puntodeventa_11.Vender"
+        android:label="fragment_vender"
+        tools:layout="@layout/fragment_vender" />
+    <fragment
+        android:id="@+id/ventas"
+        android:name="com.example.puntodeventa_11.Ventas"
+        android:label="fragment_ventas"
+        tools:layout="@layout/fragment_ventas" />
+    <fragment
+        android:id="@+id/catalogo_Online"
+        android:name="com.example.puntodeventa_11.Catalogo_Online"
+        android:label="fragment_catalogo__online"
+        tools:layout="@layout/fragment_catalogo__online" />
+    <fragment
+        android:id="@+id/configuracion"
+        android:name="com.example.puntodeventa_11.Configuracion"
+        android:label="fragment_configuracion"
+        tools:layout="@layout/fragment_configuracion" />
+    <fragment
+        android:id="@+id/ayuda"
+        android:name="com.example.puntodeventa_11.Ayuda"
+        android:label="fragment_ayuda"
+        tools:layout="@layout/fragment_ayuda" />
+</navigation>

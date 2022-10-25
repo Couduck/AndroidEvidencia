@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/vender"
+            android:icon="@drawable/venderimage"
+            android:title="Vender" />
+        <item
+            android:id="@+id/productosFragment"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Productos" />
+        <item
+            android:id="@+id/ventas"
+            android:icon="@drawable/ventasimage"
+            android:title="Ventas" />
+        <item
+            android:id="@+id/catalogo_Online"
+            android:icon="@drawable/cataonlineimage"
+            android:title="Catalogo Online" />
+        <item
+            android:id="@+id/configuracion"
+            android:icon="@drawable/configuracionimage"
+            android:title="Configuración" />
+        <item
+            android:id="@+id/ayuda"
+            android:icon="@drawable/ayudaimage"
+            android:title="Ayuda" />
+    </group>
+</menu>
