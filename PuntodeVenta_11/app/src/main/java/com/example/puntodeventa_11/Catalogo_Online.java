@@ -7,14 +7,6 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.EditText;
-import android.widget.ImageButton;
-import android.widget.ListView;
-
-import com.example.puntodeventa_11.classes.CatalogoOnlineCustomAdapter;
-import com.example.puntodeventa_11.classes.ProductoCatalogo;
-
-import java.util.ArrayList;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -31,14 +23,6 @@ public class Catalogo_Online extends Fragment {
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
-
-    ListView lista;
-    EditText editName, editDate;
-    ImageButton btnAdd;
-    private int day, month, year;
-    ArrayList<ProductoCatalogo> listItems;
-    CatalogoOnlineCustomAdapter adapter;
-
 
     public Catalogo_Online() {
         // Required empty public constructor
@@ -75,25 +59,6 @@ public class Catalogo_Online extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-
-        View v = inflater.inflate(R.layout.fragment_catalogo__online, container, false);
-
-        listItems = new ArrayList<ProductoCatalogo>();
-
-        String[] nombres = {"Producto 1", "Producto 2", "Producto 3", "Producto 4", "Producto 5"};
-        String[] precios = {"$200", "$100", "$300", "$400", "$750"};
-        String[] descripciones = {"Descripcion 1", "Descripcion 2", "Descripcion 3", "Descripcion 4", "Descripcion 5"};
-
-        for(int i = 0; i < nombres.length; i++)
-        {
-            listItems.add(new ProductoCatalogo(nombres[i], precios[i], descripciones[i]));
-        }
-
-
-        lista = (ListView) v.findViewById(R.id.listaCatalogo);
-        adapter = new CatalogoOnlineCustomAdapter(getActivity().getApplicationContext(), R.layout.item_list_catalogo_online, listItems);
-        lista.setAdapter(adapter);
-
-        return v ;
+        return inflater.inflate(R.layout.fragment_catalogo__online, container, false);
     }
 }
