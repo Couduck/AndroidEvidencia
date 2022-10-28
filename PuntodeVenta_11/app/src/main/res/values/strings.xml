@@ -22,4 +22,20 @@
     <string name="fuente">Fuente</string>
     <string name="tamañoFuente">Tamaño de Fuente</string>
     <string name="colores">Colores</string>
+
+    <string name="tvBuscarProd">Buscar producto</string>
+    <string name="ptBarraBusq">Buscar</string>
+    <string name="tvVenta">Venta de CAJA</string>
+    <string name="ibImage1">Imagen1</string>
+    <string name="ibImage2">Imagen2</string>
+    <string name="ibImage3">Imagen3</string>
+    <string name="ibImage4">Imagen4</string>
+    <string name="btnEscanear">Escanear producto</string>
+    <string name="btnHacerCobro">Hacer cobro</string>
+    <string name="ptEfectivo">Efectivo</string>
+    <string name="ptDolar">Dolar</string>
+    <string name="ptTarjeta">Tarjeta</string>
+    <string name="ptTotal">Total</string>
+    <string name="tvCambio">Cambio</string>
+    <string name="btnCobrar">Cobrar</string>
 </resources>

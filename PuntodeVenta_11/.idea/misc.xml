@@ -3,8 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/patoe/AndroidEvidencia/PuntodeVenta_11/app/src/main/res/drawable/ic_baseline_arrow_right_alt_24.xml" value="0.3675" />
+        <entry key="..\:/Users/patoe/AndroidEvidencia/PuntodeVenta_11/app/src/main/res/drawable/ic_baseline_attach_money_24.xml" value="0.3675" />
+        <entry key="..\:/Users/patoe/AndroidEvidencia/PuntodeVenta_11/app/src/main/res/drawable/ic_baseline_request_quote_24.xml" value="0.3675" />
+        <entry key="..\:/Users/patoe/AndroidEvidencia/PuntodeVenta_11/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/patoe/AndroidEvidencia/PuntodeVenta_11/app/src/main/res/layout/app_bar_main.xml" value="0.1" />
+        <entry key="..\:/Users/patoe/AndroidEvidencia/PuntodeVenta_11/app/src/main/res/layout/content_main.xml" value="0.18" />
+        <entry key="..\:/Users/patoe/AndroidEvidencia/PuntodeVenta_11/app/src/main/res/layout/fragment_ayuda.xml" value="0.24592391304347827" />
         <entry key="..\:/Users/patoe/AndroidEvidencia/PuntodeVenta_11/app/src/main/res/layout/fragment_catalogo__online.xml" value="0.1" />
+        <entry key="..\:/Users/patoe/AndroidEvidencia/PuntodeVenta_11/app/src/main/res/layout/fragment_pantalla_cobro.xml" value="0.2056159420289855" />
         <entry key="..\:/Users/patoe/AndroidEvidencia/PuntodeVenta_11/app/src/main/res/layout/fragment_productos.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/patoe/AndroidEvidencia/PuntodeVenta_11/app/src/main/res/layout/fragment_vender.xml" value="0.2056159420289855" />
         <entry key="..\:/Users/patoe/Desktop/Accesos directos Steam/PuntodeVenta_11/app/src/main/res/drawable/ayudaimage.xml" value="0.294" />
         <entry key="..\:/Users/patoe/Desktop/Accesos directos Steam/PuntodeVenta_11/app/src/main/res/layout/fragment_productos.xml" value="0.2" />
       </map>
