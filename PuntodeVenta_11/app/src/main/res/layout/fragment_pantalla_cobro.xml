@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment_pantalla_cobro">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/ptEfectivo"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:drawableLeft="@drawable/ic_baseline_attach_money_24"
+            android:ems="10"
+            android:hint="@string/ptEfectivo"
+            android:inputType="textPersonName"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toTopOf="@+id/ptDolares"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/ptDolares"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:drawableLeft="@drawable/ic_baseline_attach_money_24"
+            android:ems="10"
+            android:hint="@string/ptDolar"
+            android:inputType="textPersonName"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toTopOf="@+id/ptTarjeta"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ptEfectivo" />
+
+        <EditText
+            android:id="@+id/ptTarjeta"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:drawableLeft="@drawable/ic_baseline_attach_money_24"
+            android:ems="10"
+            android:hint="@string/ptTarjeta"
+            android:inputType="textPersonName"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toTopOf="@+id/ptTotal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ptDolares" />
+
+        <EditText
+            android:id="@+id/ptTotal"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:drawableLeft="@drawable/ic_baseline_arrow_right_alt_24"
+            android:ems="10"
+            android:hint="@string/ptTotal"
+            android:inputType="textPersonName"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toTopOf="@+id/tvCambio"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ptTarjeta" />
+
+        <Button
+            android:id="@+id/btnCobrar"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="#03A9F4"
+            android:text="@string/btnCobrar"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvCambio" />
+
+        <TextView
+            android:id="@+id/tvCambio"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:drawableLeft="@drawable/ic_baseline_request_quote_24"
+            android:text="@string/tvCambio"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toTopOf="@+id/btnCobrar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ptTotal" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
